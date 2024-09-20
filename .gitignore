@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.zip
+
+# Build directories
+/build/
+bin/
+out/
+
+# Dependency directories (vendor directory for Go modules)
+vendor/
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go module-related files
+go.sum
+
+# Log files
+*.log
+
+# Go test binary
+*.test
+
+# Coverage reports
+*.out
+
+# Terraform files (specific to your setup)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# S3 bucket uploads (from frontend)
+frontend/
+
